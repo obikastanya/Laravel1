@@ -1,0 +1,27 @@
+body{
+    background-image:  url(../../img/background3.jpg);
+    background-size: cover;
+}
+.card{
+    
+    min-width: 100%;
+    opacity: 0.95;
+}
+.col-sm-8.tbEkskul{
+    padding-top: 100px;
+}
+.container{
+    padding-bottom: 100px;
+}
+.card-img{
+    margin: 30px 10px 10px 15px;
+    padding: 10px;
+    height: 75%;
+    border-radius: 5px;
+}
+
+.tombol{
+    z-index: 5;
+    left:20px;
+    top: 20px;
+}

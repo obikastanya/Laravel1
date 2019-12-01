@@ -1,0 +1,14 @@
+body{    
+        background-image: linear-gradient(to left,rgba(0,0,0,1),rgba(0,0,0,0.8));
+        color: white;
+    }
+.container2{
+    margin: 5% 30% 15% 30%;
+    width: 40%;
+    padding: 10% 5%  10% 6%;
+    border: 2PX solid black;
+    box-shadow: 0px 12px 7px -5px rgba(0,0, 0, 0.9);
+    border-radius: 10px;
+}
+
+

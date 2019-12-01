@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.container2{
+    height: 800px;
+}
+.row-utama{
+    height: 800px;
+    background-color:black;
+}
+.card{
+    margin: 3.5% 7.5% 7.5% 7.5%;
+}
+.form-update{
+    
+    margin-top: 5px;
+    background-color: white;
+    /* border-top-left-radius: 55px;
+    border-bottom-right-radius: 75px; */
+}
+#nav-tab{
+    margin-left: 45px;
+
+}
+.tab-pane {
+    padding: 3% 5% 2% 5%;   
+}
+#nav-tab{
+    margin-right: 5%;
+}
+.ukuran td, .ukuran th{
+    max-width: 120px;
+}
+.materi{
+    max-width: 250px!important;
+}
+#opsi{
+    max-width: 170px;
+}
+.ukuran form{
+    display: inline;
+}
+
+.tombol{
+    width: 80%;
+    margin-left: 8%;
+    margin-top:15px;
+    border-radius:5px;
+    
+}

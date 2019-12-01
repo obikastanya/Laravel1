@@ -1,0 +1,225 @@
+body{
+    margin: 0px;
+    
+      font-family: 'Cantarell', sans-serif;
+}
+@font-face {
+    font-family: 'Cantarell';
+    src: url('../../font/Cantarell-Regular.ttf');
+  }
+.tab-pane{
+    
+    
+}
+#pills-home{
+    /* background-image: url('../../img/graduates.jpg'); */
+    background-color: rgba(205, 205, 255, 0.8);
+    background-size:cover;
+    background-position:center ;
+    height: 3100px!important;
+
+}
+#tampilcarisiswa{
+    background-color:rgba(205, 205, 255, 0.8)!important;
+    height: 900px!important;
+    color: white;
+
+}
+#pills-faq{
+    background-color:black;
+    height: 1800px!important;
+    color: white;
+    padding-top: 5%;
+
+}
+#tampilabout{
+    background-color:#30373f;
+    color: white;
+    height: 900px!important;
+
+}
+.container-fluid{
+    padding:0px;
+}
+.home-landing{
+    background-color:#30373f;
+    height: 1400px;   
+    padding: 16% 5% 5% 5%;
+    color: white;
+
+}
+.home-landing section img{
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius:1px;
+
+
+}
+
+.home-landing section p{
+margin-top: 30px;
+}
+
+.home-landing section{
+    margin-top: 32%;
+    margin-left: 15%;
+    width: 100%;
+    height: 50%;
+    background-size:cover ;
+    background-color: black;
+    border-radius: 2px;
+    
+}
+.white-black{
+    height: 600px;
+    background-color: rgba(0, 0, 5, 1);
+    
+}
+.white-side{
+    background-color: white;
+    padding: 10% 20% 10% 20%;
+    background-size: cover;
+}
+.image-text{
+    height: 350px;
+}
+.card-side{
+    margin: 50px 0px;
+    font-size: 19px;
+}
+.card-body{
+    padding: 0px;
+    background-color: white;
+    
+}
+
+.card{
+    height: 200px;
+    background-color: #30373f;; 
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: none;
+}
+.card-body{
+    padding:30px ;
+}
+.image-text{
+    margin-top: 50px;
+}
+.image-text1{
+    background-color: rgba(0, 0,5, 1);
+    padding: 5% 10%;
+    color: white!important;
+}
+.image-text2{
+    background-color: white;
+}
+.footer{
+    margin-top: 230px;
+    height: 150px;
+    color: white;
+    padding: 5% 20% 0% 10%;
+    background-image: url('../../img/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar1{
+    background-image:linear-gradient(to right, rgba(0, 0, 10, 1), rgba(0, 0, 10, 0.99) );
+}
+#tampilcarisiswa .col-sm-12{
+    text-align: left;
+    padding: 15% 25% 15% 25%;
+    color: white;
+    background-color:#30373f;
+    height: 900px;
+}
+hr{
+           border-top: 1px solid white!important;
+}
+#nis, #tgl_lahir{
+    border-radius: 0px;
+    
+}
+#tgl_lahir{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+#nis{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.ask{
+    height: 650px;
+    width: 100%;
+    z-index: 1!important;
+    background-color: white;
+    color: black;
+    
+}
+.answer{
+    margin-top:650px ;
+    background-color:black!important;
+    z-index: 3;
+    opacity: 1;
+    height: 1050px;
+    position: relative;
+    color: white;
+    padding: 5%  10%  0%  10%;
+    background-image: url(../../img/landing/wb2.svg);
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fixed-bottom{
+ background-color: black;
+}
+.row1{
+background-color:rgba(195, 195, 255, 1);;
+color: #30373f;
+font-weight: 700;
+padding: 10% 10% 10% 10%;
+height: 200px;
+}
+.row2{
+background-color:#30373f;
+height: 420px;
+
+}
+.row2 .col-sm-6{
+    background-color:#30373f;
+padding: 5% 10% 0% 10%;
+}
+.row2 .col-sm-2{
+    background-color:rgba(0, 5, 0,1)
+
+}
+.row3{
+    background-color:white;
+    height: 550px;
+    color: black;
+
+}
+.row4{
+    background-color:black;
+    height: 100px;
+
+}
+.row3 .col-sm-4,
+.row3 .col-sm-3{
+    border-left: 1px solid rgba(105, 105, 155, 0.8);
+    height: 300px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 5%;
+
+}
+img.logo{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    } 
+.row3 .col-sm-4 p,
+.row3 .col-sm-3 p{
+display: inline;
+    }

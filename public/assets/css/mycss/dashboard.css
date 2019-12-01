@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(0,0, 0, 0);
+    height: 100%;
+}
+.rowutama{
+    height: 800px;
+}
+.leftCol{
+    padding: 20px 30px 10px 30px;
+    height: 100%;
+    background-color: rgba(0,0, 5, 0.98);
+}
+.col-sm-10{
+    /* background-image: linear-gradient(to right, #b993d6, #8ca6db); */
+    background-image: url('../../img/background3.jpg');
+    /* background-size: cover; */
+    height: 100%;
+    padding: 1% 2% 2% 10px;
+}
+.leftCol .profile{
+    margin: 5px 10px 40px 15px;
+    color: white;
+}
+.leftCol img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 55px 5px rgba(255,255,255,0.7);
+}
+.leftCol .name_profile{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.leftCol .name_profile:hover{
+    display: inline-block;
+    transform: translate(-6px, 4px) ;
+    transition: 0.2s;
+}
+.foto{
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    background-color:white ;
+}
+.foto img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.partInput{
+    border: 1px solid rgba(0,150, 230, 0.9);
+    background-image: linear-gradient(to left,rgba(0,0,0,1),rgba(0,0,0,0.7));
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 13px 5px -5px rgba(0,70, 150, 0.9);
+}
+.breadcrumb{
+    margin: 0% 5% 1.5% 7% ;
+    background-image: linear-gradient(to left,rgba(0,0,0,1),rgba(0,0,0,0.7));
+}
+label{
+    color:#007bff;
+}
+
+.opsian:hover{
+    background-color: #007bff !important;
+    color: white!important;
+    margin-top: 5px;
+}
